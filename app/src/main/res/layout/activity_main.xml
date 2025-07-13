@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="#F5F7FA"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogViewer"
+        android:textSize="22sp"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnShowLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הצג לוגים"
+        android:backgroundTint="#4FC3F7"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnClearLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מחק את כל הלוגים"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#EF5350" />
+</LinearLayout>
